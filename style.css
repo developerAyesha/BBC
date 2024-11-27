@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.nav{
+    padding: 8px 12px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.left-icons{
+    display: flex;
+    gap:0px 30px;
+}
+
+.header-icon{
+   
+    font-size: 20px;
+    cursor:pointer;
+   
+}
+.bbc{
+    display:flex;
+    gap:  0px 10px;
+    cursor:pointer;
+}
+.bbc-icon{
+    background-color: black;
+    color: white;
+    padding: 2px 8px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.register-button{
+    display: flex;
+    gap:0 14px;
+}
+.register{
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor:pointer;
+}
+.sign-in{
+    padding: 8px 16px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor:pointer;
+}
+.sign-in:hover{
+    background-color: black;
+    color: white;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap:0 6px;
+}
+.menu{
+    border: 1px solid grey;
+    padding: 4px 0;
+}
+.menu ul li{
+     padding: 12px 8px;
+     font-size: 14px;
+     font-weight: 600;
+}
+.menu ul li:hover{
+    background-color:darkgray ;
+    cursor: pointer;
+
+}
+.main-content{
+    padding:50px 140px;
+}
